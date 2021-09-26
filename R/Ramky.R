@@ -6,7 +6,7 @@ Ramky<-function(x){
   #1 row and 2 colmns
   par(mfrow = c(1,2))
   #Histogram
-  hist(x,col = rainbow(30))
+  hist(x, col = rainbow(30))
   #BoX plot
   boxplot(x,col ='green')
   par(mfrow = c(1,1))
